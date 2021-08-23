@@ -34,9 +34,13 @@
 }
 
 body {
-    background-color: #eaeaea;
+    background: linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)) 0% 50% / cover, url("https://ae01.alicdn.com/kf/H18a4b998752a4ae68b8e85d432a5aef0l.png"), url("https://cdn.jsdelivr.net/gh/clannadone/cdn-image/cdn-img91523700_p0.jpg") 0px 0px;
+    background-attachment: fixed;
     margin: 0;
-    color: #34495e;
+    color: #7F95D1;
+    /* background-color: #eaeaea;
+    margin: 0;
+    color: #34495e; */
     overflow-x: hidden;
     overflow-y: auto;
 }
@@ -241,11 +245,11 @@ mark {
 }
 
 .bg-color {
-    background-image: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);
+    background-image: linear-gradient(to right, #f8aba6 0%, #f8aba6 100%);
 }
 
 .text-color {
-    color: #0f9d58 !important;
+    color: #f8aba6 !important;
 }
 
 .white-color {
@@ -257,7 +261,7 @@ mark {
     position: fixed;
     bottom: 0;
     z-index: 300;
-    background: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);
+    background: linear-gradient(to right, #f8aba6 0%, #f8aba6 100%);
     opacity: 0.8;
 }
 
@@ -645,7 +649,7 @@ header .go-back i {
     100% {
         background: rgba(156, 39, 176, 0.75);
         background: linear-gradient(45deg, rgba(156, 39, 176, 0.75) 0%, rgba(156, 39, 176, 0.65) 100%);
-        background: -moz-linear-gradient(135deg, rgba(156, 39, 176, 0.75) 0%, rgba(156, 39, 176, 0.65) 100%);
+        background: -moz-linear-gradient(135deg, rgbFa(156, 39, 176, 0.75) 0%, rgba(156, 39, 176, 0.65) 100%);
         background: -webkit-linear-gradient(135deg, rgba(156, 39, 176, 0.75) 0%, rgba(156, 39, 176, 0.65) 100%);
     }
 
@@ -1317,7 +1321,7 @@ thead {
 
 .chip-container .chip:hover {
     color: #fff;
-    background: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%) !important;
+    background: linear-gradient(to right, #f8aba6 0%, #f8aba6 100%) !important;
 }
 
 .chip .tag-length {
@@ -1393,7 +1397,7 @@ thead {
     left: 18px;
     height: 100%;
     width: 4px;
-    background: #0f9d58;
+    background: #f8aba6;
 }
 
 @media only screen and (min-width: 900px) {
@@ -1629,8 +1633,8 @@ thead {
     margin: 0 0.5rem;
     padding: 0;
     color: #fff;
-    border: 1px solid #0f9d58;
-    background: radial-gradient(#4cbf30, #0f9d58);
+    border: 1px solid #f8aba6;
+    background: radial-gradient(#f8aba6, #f8aba6);
     font-size: 0.9rem;
     border-radius: 50%;
     box-shadow: 0 4px 6px rgba(50, 50, 93, .21), 0 2px 3px rgba(0, 0, 0, .1);
@@ -1806,8 +1810,8 @@ thead {
 
 .other-skills .chip:hover {
     color: #fff;
-    background: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);
-    border: 1px solid #4cbf30;
+    background: linear-gradient(to right, #f8aba6 0%, #f8aba6 100%);
+    border: 1px solid #f8aba6;
     box-shadow: 0 5px 5px rgba(0, 0, 0, .25)
 }
 
